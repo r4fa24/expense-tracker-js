@@ -3,7 +3,7 @@
 A simple expense tracker built using vanilla JavaScript.
 
 The application allows users to track income and expenses, calculate their balance, and save transactions locally in the browser.
-
+![Expense Tracker Screenshot](PIC.png)
 ## Features
 
 - Add income and expense transactions
@@ -25,5 +25,5 @@ The application allows users to track income and expenses, calculate their balan
 
 ## Screenshots
 
-![Expense Tracker Screenshot](screenshot.png)
+
 
