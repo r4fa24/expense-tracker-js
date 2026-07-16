@@ -23,7 +23,6 @@ The application allows users to track income and expenses, calculate their balan
 - JavaScript (ES6)
 - Local Storage API
 
-## Screenshots
 
 
 
