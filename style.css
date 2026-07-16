@@ -1,0 +1,83 @@
+*{
+ margin:0;
+ padding:0;
+ box-sizing: border-box;
+}
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(247, 237, 244);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container {
+    width: 400px;
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.summary{
+    display:flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.card{
+    flex: 1;
+     background-color: #f8f8f8;
+     padding:15px;
+     border-radius:8px;
+     text-align: center;
+}
+.card h3{
+    font-size:20px;
+   
+}
+.card p{
+    font-size: 18px;
+     font-weight: bold;
+     
+}
+form{
+    display:flex;
+    flex-direction: column;
+    gap:12px;
+    margin-bottom:20px;
+
+}
+input,
+select,
+button {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 6px;
+}
+input,
+select{
+    border: 1px solid #ccc;
+}
+button:hover{
+     background-color: #e9c0df;
+     color:#651a5a;
+     border: 2px solid #651a5a;
+
+
+}
+#transactionList {
+    list-style: none;
+}
+#transactionList li {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:12px;
+    margin-bottom:10px;
+    background-color: #f8f8f8;
+    border-radius: 6px;
+}
